@@ -28,6 +28,14 @@ npm start
 
 json-server --watch ./src/db.json --port 3001
 
+## Логин и пароль
+
+dopadev
+abc123
+
+test
+abc123
+
 ## Примечания
 
 - Убедитесь, что у вас установлен Node.js и npm.
