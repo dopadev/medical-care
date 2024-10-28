@@ -1,0 +1,37 @@
+.controlPanel {
+	display: flex;
+	align-items: center;
+}
+
+.loginButton {
+	display: flex;
+	align-items: center;
+	padding: 8px 60px;
+	margin-left: 59px;
+	border-radius: 7px;
+	border: 2px solid var(--color-orange);
+	background-color: var(--color-light);
+	color: var(--color-orange);
+	max-height: 40px;
+	transition-duration: var(--transition-duration);
+
+	font-family: montserrat;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.loginButton:hover {
+	background-color: var(--color-orange);
+	color: var(--color-light);
+}
+
+.lock {
+	overflow: hidden;
+}
+
+@media (max-width: 375px) {
+	.loginButton {
+		padding: 6px 20px;
+		margin-left: 11px;
+	}
+}

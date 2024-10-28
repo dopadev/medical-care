@@ -1,0 +1,22 @@
+.welcome {
+	min-height: 280px;
+	display: flex;
+	align-items: center;
+}
+
+.buttons {
+	display: flex;
+	margin-top: 20px;
+	gap: 10px;
+}
+
+@media (max-width: 375px) {
+	.welcome {
+		align-items: start;
+		min-height: 213px;
+	}
+
+	.buttons {
+		flex-wrap: wrap;
+	}
+}

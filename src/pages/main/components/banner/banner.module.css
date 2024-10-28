@@ -1,0 +1,19 @@
+.banner {
+	min-height: 280px;
+}
+
+.buttons {
+	display: flex;
+	margin-top: 35px;
+	gap: 10px;
+}
+
+.lock {
+	overflow: hidden;
+}
+
+@media (max-width: 375px) {
+	.banner {
+		min-height: 213px;
+	}
+}

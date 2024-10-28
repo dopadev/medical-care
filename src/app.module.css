@@ -1,0 +1,85 @@
+:root {
+	--color-dark: #000000;
+	--color-dark-alternate: #252b42;
+	--color-gray: #737373;
+	--color-light: #ffffff;
+	--color-orange: #ff685b;
+	--color-red: #ff0027;
+
+	--border-radius: 30px;
+
+	--font-family-base: sans-serif;
+
+	--header-container-width: 1300px;
+	--header-height: 80px;
+	--header-padding-x: 70px;
+
+	--container-width: 1047px;
+	--container-padding-x: 10px;
+	--container-padding-y: 80px;
+
+	--transition-duration: 0.2s;
+}
+
+body {
+	min-height: 100%;
+	background-color: var(--color-light);
+}
+
+.app {
+	font-family: var(--font-family-base);
+	font-weight: 300;
+	font-size: 16px;
+	font-family: montserrat;
+	font-weight: 700;
+	line-height: 1.75;
+	color: var(--color-dark-alternate);
+}
+
+a {
+	color: var(--color-dark);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--color-purple);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+	transition-duration: var(--transition-duration);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: montserrat;
+	font-weight: 700;
+	font-size: 58px;
+	margin: 0;
+}
+
+.container {
+	max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	margin-inline: auto;
+	margin-top: var(--header-height);
+	padding-inline: var(--container-padding-x);
+	padding-block: var(--container-padding-y);
+}
+
+@media (max-width: 375px) {
+	.container {
+		max-width: 375px;
+		padding-block: 38px;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+}

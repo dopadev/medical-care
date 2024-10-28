@@ -1,0 +1,17 @@
+.menu {
+	font-family: 'open sans';
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.menuItem a {
+	display: flex;
+	align-items: center;
+	color: var(--color-gray);
+	height: var(--header-height);
+	transition-duration: var(--transition-duration);
+}
+
+.menuItem a:hover {
+	color: var(--color-orange);
+}

@@ -1,0 +1,39 @@
+.modal {
+	border: none;
+	padding: 0;
+	position: fixed;
+	inset-block-start: 0;
+	inset-block-end: 0;
+	width: 431px;
+	max-height: 600px;
+	user-select: text;
+	visibility: visible;
+	overflow: auto;
+	z-index: 100;
+
+	border-radius: 10px;
+
+	display: block;
+	box-shadow: 0 0 0 100vmax #00000040;
+	opacity: 0;
+	visibility: hidden;
+	transition: all var(--transition-duration);
+
+	white-space: wrap;
+}
+
+.modal[open] {
+	opacity: 1;
+	visibility: visible;
+}
+
+.modal::backdrop {
+	background: #00000000;
+}
+
+.modalContent {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 50px 40px 50px;
+	gap: 10px;
+}

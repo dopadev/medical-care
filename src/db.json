@@ -1,0 +1,12 @@
+{
+	"users": [
+		{
+			"login": "dopadev",
+			"password": "abc123"
+		},
+		{
+			"login": "test",
+			"password": "abc123"
+		}
+	]
+}
