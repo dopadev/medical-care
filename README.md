@@ -32,7 +32,7 @@ json-server --watch ./src/db.json --port 3001
 
 ## Логин и пароль
 
-dopadev / abc123
+dopadev / abc123<br>
 test / abc123
 
 ## Примечания
