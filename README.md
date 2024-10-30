@@ -10,25 +10,25 @@
 
 1. Склонируйте репозиторий:
 
-git clone https://github.com/dopadev/medical-care.git
+`git clone https://github.com/dopadev/medical-care.git`
 
 2. Перейдите в директорию проекта:
 
-cd ./medical-care
+`cd ./medical-care`
 
 3. Установите все необходимые зависимости:
 
-npm install
+`npm install`
 
 ## Запуск приложения
 
-npm start
+`npm start`
 
 ## Запуск JSON-сервера
 
 Выполнить в другом терминале:
 
-json-server --watch ./src/db.json --port 3001
+`json-server --watch ./src/db.json --port 3001`
 
 ## Логин и пароль
 
@@ -40,4 +40,4 @@ test / abc123
 - Убедитесь, что у Вас установлен Node.js и npm
 - Если у Вас нет установленного JSON-сервера, Вы можете установить его глобально с помощью команды:
 
-npm install -g json-server
+`npm install -g json-server`
