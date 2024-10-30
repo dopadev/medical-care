@@ -2,21 +2,23 @@
 
 ## Описание
 
-React + Redux, авторизация пользователя, адаптивная вёрстка под мобильные устройства.
+- React + Redux
+- Авторизация + хранение информации о сессии пользователя
+- Адаптивная вёрстка под мобильные устройства
 
 ## Установка
 
 1. Склонируйте репозиторий:
 
-   git clone https://github.com/dopadev/medical-care.git
+git clone https://github.com/dopadev/medical-care.git
 
 2. Перейдите в директорию проекта:
 
-   cd ./medical-care
+cd ./medical-care
 
 3. Установите все необходимые зависимости:
 
-   npm install
+npm install
 
 ## Запуск приложения
 
@@ -35,7 +37,7 @@ test / abc123
 
 ## Примечания
 
-- Убедитесь, что у Вас установлен Node.js и npm.
+- Убедитесь, что у Вас установлен Node.js и npm
 - Если у Вас нет установленного JSON-сервера, Вы можете установить его глобально с помощью команды:
 
-  npm install -g json-server
+npm install -g json-server
